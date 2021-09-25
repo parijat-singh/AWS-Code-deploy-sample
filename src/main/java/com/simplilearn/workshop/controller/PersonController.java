@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class PersonController {
-	@RequestMapping("/getName")
+	@RequestMapping("/getname")
 	public String getName() {
-		return "Hello Parijat";
+		return " <h1> AWS Code Deploy </h1> <br/> Hello Parijat Singh <br/>";
 	}
 
 }
