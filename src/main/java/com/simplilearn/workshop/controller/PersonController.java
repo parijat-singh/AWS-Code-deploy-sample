@@ -11,8 +11,8 @@ public class PersonController {
 		String thirdLine = "<h3> Third line change</h3>";
 		String fourthLine = "<h3> Fourth line change</h3>";
 		String fifthLine = "<p> Fifth line change</p>";
-		String sixthLine = "<i> Sixth line change</i>";
-		String seventhLine = "<em> Seventh line change</em>";
+		String sixthLine = "<i> Sixth line change</i><br/>";
+		String seventhLine = "<em> Seventh line change</em><br/>";
 		return " <h1> AWS Code Deploy </h1> <br/> Hello Parijat Singh <br/> "
 				+ secondLine
 		+ thirdLine
